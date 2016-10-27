@@ -17,7 +17,7 @@ function deduplicateProperties(nodes = []) {
     .reverse();
 }
 
-postcss.plugin('postcss-merge-dupes', () => {
+export default postcss.plugin('postcss-merge-dupes', () => {
   return (root) => {
     const cache = {};
 
