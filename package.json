@@ -1,0 +1,31 @@
+{
+  "name": "postcss-merge-dupes",
+  "description": "Combine multiple instances of the same selector and deduplicate their properties",
+  "version": "0.1.0",
+  "author": {
+    "name": "Mike Green",
+    "email": "mike.is.green@gmail.com",
+    "url": "http://sourceenvy.us"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikedamage/postcss-merge-dupes.git"
+  },
+  "dependencies": {
+    "lodash": "^4.16.4",
+    "postcss": "^5.2.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babel-register": "^6.18.0"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mikedamage/postcss-merge-dupes",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir dist"
+  }
+}
